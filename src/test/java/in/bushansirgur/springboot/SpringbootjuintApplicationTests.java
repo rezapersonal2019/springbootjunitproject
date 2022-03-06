@@ -31,12 +31,12 @@ class SpringbootjuintApplicationTests {
 	 * p.setName("iPhone XR"); p.setDesc("Fantastic"); p.setPrice(1000.00);
 	 * pRepo.save(p); assertNotNull(pRepo.findById(1L).get()); }
 	 */
-	/*
-	 * @Test
-	 * 
-	 * @Order(2) public void testReadAll () { List list = pRepo.findAll();
-	 * assertThat(list).size().isGreaterThan(0); }
-	 */
+	
+	  @Test
+	 
+	 @Order(2) public void testReadAll () { List list = pRepo.findAll();
+	  assertThat(list).size().isGreaterThan(0); }
+	 
 		
 	/*
 	 * @Test
